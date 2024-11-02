@@ -1,0 +1,20 @@
+{%extends 'base.html' %}
+
+{% block content %}
+    <h1>Shop</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <p>
+                <img src="{{ url_for('static', filename='img/watch.jpeg') }}"><br>
+                apple watch
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p>
+                <img src="{{ url_for('static', filename='img/laptop.jpeg') }}"><br>
+                mac book
+            </p>
+        </div>
+    </div>
+
+{% endblock %}
